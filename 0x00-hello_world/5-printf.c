@@ -10,8 +10,7 @@
  */
 int main(void)
 {
-	printf("Art is an expression,\n");
-	printf("But the outcome is a masterpiece,\n");
-	printf("Where the artist's heart takes control.\n");
+	
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }
