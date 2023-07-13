@@ -19,5 +19,14 @@ int main(void)
 	printf("Size of double: %zu bytes\n", sizeof(double));
 	printf("Size of long double: %zu bytes\n", sizeof(long double));
 
+	printf("Size of char: %u bytes\n", sizeof(char));
+  	printf("Size of short: %u bytes\n", sizeof(short));
+        printf("Size of int: %u bytes\n", sizeof(int));
+        printf("Size of long: %u bytes\n", sizeof(long));
+        printf("Size of long long: %u bytes\n", sizeof(long long));
+        printf("Size of float: %u bytes\n", sizeof(float));
+        printf("Size of double: %u bytes\n", sizeof(double));
+        printf("Size of long double: %u bytes\n", sizeof(long double)); 
+
 	return (0);
 }
