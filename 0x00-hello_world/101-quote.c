@@ -7,6 +7,7 @@
  *
  * Return: Always 1
  */
+
 int main(void)
 {
 	int fd;
@@ -18,4 +19,3 @@ int main(void)
 
 	return 1;
 }
-
