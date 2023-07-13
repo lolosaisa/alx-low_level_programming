@@ -1,7 +1,6 @@
+#include<stdio.h>
 #include <unistd.h>
-#include <stdlib.h>
 #include <string.h>
-#include <errno.h>
 
 /**
  * main - Entry point of the program
@@ -10,15 +9,13 @@
  */
 int main(void)
 {
+	int fd;
 	char *message = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-	ssize_t len = strlen(message);
-	ssize_t written = write(STDERR_FILENO, message, len);
+	size_t len = strlen(message);
 
-	if (written != len)
-	{
-		perror("Write failed");
-		return 1;
-	}
+	fd = STDERR_FILENO;
+	write(fd, message, len);
 
 	return 1;
 }
+
