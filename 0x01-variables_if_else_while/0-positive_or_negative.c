@@ -1,3 +1,6 @@
+#include <stdlib.h>
+#include<stdio.h>
+
 /**
  * main - Entry point of the program
  *
