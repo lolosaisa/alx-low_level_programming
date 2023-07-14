@@ -9,6 +9,7 @@
  *
  * Return: 0
  */
+
 int main (void)
 {  
 	int n;
@@ -22,7 +23,7 @@ int main (void)
 	else if(n<0)
 		printf("%i is negative\n", n);
 
-	else
+	else if(n==0)
 		printf("%i is Zero\n", n);
 
 	return (0);
