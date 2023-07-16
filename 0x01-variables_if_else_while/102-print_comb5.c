@@ -26,7 +26,7 @@ int main(void)
 			putchar(t2 + '0');
 			putchar(o2 + '0');
 
-			if (num1 != 99 || num2 != 99)
+			if (num1 != 99 || num2 != 99 || num1 < num2)
 			{
 				putchar(',');
 				putchar(' ');
