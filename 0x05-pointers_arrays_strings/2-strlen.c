@@ -3,6 +3,7 @@
  * _strlen - Function that calculates the length of the string
  * @*s: Pointer that points to the first character
  * of the string
+ * @s: Sting being checked
  * Return: Length of the sting
  */
 int _strlen(char *s)
